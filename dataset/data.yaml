@@ -1,0 +1,9 @@
+# กำหนดเส้นทางไปยังโฟลเดอร์ภาพ (ใช้ Path เต็มจากไดร์ฟ C ชัวร์ที่สุด)
+train: C:/Object_Detection_Project/dataset/train/images
+val: C:/Object_Detection_Project/dataset/val/images
+
+# จำนวนคลาส (Number of Classes)
+nc: 5
+
+# ชื่อคลาส
+names: ['brown_box', 'pink_bag', 'blue_bag', 'white_bag', 'dog_bag']

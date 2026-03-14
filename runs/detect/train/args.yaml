@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: dataset/data.yaml
+data: C:/Object_Detection_Project/dataset/data.yaml
 epochs: 50
 time: null
 patience: 100
